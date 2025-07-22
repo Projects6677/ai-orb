@@ -1,17 +1,7 @@
 {
-  // --- Project Metadata ---
-  // Basic information about your application.
-  "name": "ai-orb",
+  "name": "ai-tools-website",
   "version": "0.1.0",
   "private": true,
-
-  // --- Dependencies ---
-  // These are the packages required for the application to run in production.
-  // 'react' is the core React library.
-  // 'react-dom' allows React to interact with the web browser (the DOM).
-  // 'react-scripts' includes the scripts and configurations from Create React App.
-  // Note: Since we are loading Tailwind CSS via a CDN link in index.html, 
-  // it is not listed as a dependency here.
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,30 +9,21 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.1",
     "web-vitals": "^2.1.4"
   },
-
-  // --- Scripts ---
-  // These are command-line shortcuts you can run with 'npm run <script-name>'.
   "scripts": {
-    "start": "react-scripts start",    // Starts the development server.
-    "build": "react-scripts build",    // Bundles the app for production.
-    "test": "react-scripts test",      // Runs the test suite.
-    "eject": "react-scripts eject"     // Exposes the hidden configurations (advanced).
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-
-  // --- ESLint Configuration ---
-  // Configures the code linter to help find and fix problems in your code.
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
-
-  // --- Browserslist ---
-  // Informs tools like Autoprefixer which browsers your project supports,
-  // ensuring CSS compatibility.
   "browserslist": {
     "production": [
       ">0.2%",
